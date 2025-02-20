@@ -1,3 +1,6 @@
+mypy
 pandas
 pytest
+pytest-clarity
 requests
+typing-extensions
