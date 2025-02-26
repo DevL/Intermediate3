@@ -3,16 +3,22 @@
 Some operations in Python can result in an error or [`exception`](https://docs.python.org/3/reference/executionmodel.html#exceptions). An exception break the normal flow of code execution and if not handled, will terminate the execution of the program. However, it is possible to enclose a piece of code that might cause an exception that you want to handle in a `try...except` statement.
 
 ```python
-def divison(a, b):
+def division(a, b):
     try:
-        return a / b
+        result = a / b
     except ZeroDivisionError:
         print("You tried to divide by zero!")
     except TypeError:
         print("You need to use two numbers!")
+    else:
+        print("No exception was raised!")
+    finally:
+        print("Always output this line!")
+    
+    return result
 ```
 
-Notice that we can specify what specific exceptions we want to handle in an `except` clause.
+Notice that we can specify what specific exceptions we want to handle in an `except` clause. We can also specify an `else` clause that will be executed if no exception was raised and a `finally` clause that will be executed just before leaving the `try` block regardless of whether an exception was raised or not. 
 
 To raise an exception, you use the `raise` statement.
 
