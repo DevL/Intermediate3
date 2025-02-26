@@ -1,6 +1,6 @@
 # Pandas
 
-[Pandas](https://pandas.pydata.org) is a Python package providing data structures and data analysis functionality that is built upon the [NumPy](https://numpy.org).
+[Pandas](https://pandas.pydata.org) is a Python package providing data structures and data analysis functionality that is built upon the [NumPy](https://numpy.org) library.
 
 ## Data structures
 
