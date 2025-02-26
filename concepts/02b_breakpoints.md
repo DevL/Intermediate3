@@ -1,6 +1,6 @@
 # Breakpoints
 
-Soimetimes it is useful to halt the execution of a program at a certain position and interactively examine what values variables hold. Python comes with a built-in debugger that can be entered by calling the `breakpoint` function from your Python code. Doing so and executing the code will drop you into an interactive Python REPL at the point you added the call to `breakpoint`.
+Sometimes it is useful to halt the execution of a program at a certain position and interactively examine what values variables hold. Python comes with a built-in debugger that can be entered by calling the [`breakpoint`](https://docs.python.org/3/library/functions.html#breakpoint) function from your Python code. Doing so and executing the code will drop you into an interactive Python REPL at the point you added the call to `breakpoint`.
 
 ```python
 def my_function(a, b):
