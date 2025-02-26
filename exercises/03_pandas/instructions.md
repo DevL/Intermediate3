@@ -24,6 +24,10 @@ _If you are already comfortable working with Pandas, have a look at the last opt
 6. In exercise 3 above, you were instructed to merge users and posts. Could you have [joined](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.join.html) the two dataframes instead? If so, what would you have to do combine the two dataframes?
 7. Now do all of the above exercises using [Polars](https://pola.rs) instead of Pandas.
 
+## Exercise notes
+
+If for any reason the JSON Placeholder API would be inaccessible, copies of the JSON data for `posts`, `users`, and `albums` are stored in the _backup_ directory of this exercise.
+
 ## Solution notes
 
 A solution for exercises 1-4 has been provided in the _solutions/03_pandas_ directory.
