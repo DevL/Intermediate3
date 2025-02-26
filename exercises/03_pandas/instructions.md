@@ -20,9 +20,10 @@ _If you are already comfortable working with Pandas, have a look at the last opt
 
 ## Challenges (optional)
 
-5. In addition to fetching and combining the above data, also fetch all [`albums`](https://jsonplaceholder.typicode.com/albums) and merge them into datastructure on an appropriate per-user basis.
-6. In exercise 3 above, you were instructed to merge users and posts. Could you have [joined](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.join.html) the two dataframes instead? If so, what would you have to do combine the two dataframes?
-7. Now do all of the above exercises using [Polars](https://pola.rs) instead of Pandas.
+5. When cleaning up the merged dataframe in step 3 above, you probably used `rename` and `drop`. Could you have done it using slicing? 
+6. In addition to fetching and combining the above data, also fetch all [`albums`](https://jsonplaceholder.typicode.com/albums) and merge them into datastructure on an appropriate per-user basis.
+7. In exercise 3 above, you were instructed to merge users and posts. Could you have [joined](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.join.html) the two dataframes instead? If so, what would you have to do combine the two dataframes?
+8. Now do all of the above exercises using [Polars](https://pola.rs) instead of Pandas.
 
 ## Exercise notes
 
