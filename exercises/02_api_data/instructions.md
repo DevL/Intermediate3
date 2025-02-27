@@ -13,7 +13,6 @@ Study the incomplete program `posts.py`. Using `requests`, either its functions 
 # Fetching related data
 
 4. If fetching a single post _and_ the command line flag `with-comments` is used, also fetch and output the comments belonging to the post.
-    * If the comments does not exist, 
 5. Associate the comments with a post by adding them as a list to the post before outputting data. 
 
 ## Posting data and using the debugger
