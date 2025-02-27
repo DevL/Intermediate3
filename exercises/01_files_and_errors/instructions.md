@@ -29,9 +29,9 @@ The program accepts an optional flag to specify an output file.
 5. If the input file cannot be opened, a certain error will be raised and a stack trace will be output. Handle this error by instead outputting a friendly message to the program's user that the file is missing.
     * Hint: Once again, the [tutorial](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) holds the key to the solution.
 
-## Handle a missing output file
+## Handle an output file that you cannot write to
 
-6. If the input file cannot be opened, a certain error will be raised and a stack trace will be output. Handle this error by instead logging that the output file is missing and fall back to outputting the enumerated lines to the console.
+6. If the input file cannot be written to, a certain error will be raised and a stack trace will be output. Handle this error by instead logging that the output file is missing and fall back to outputting the enumerated lines to the console.
     * Hint: The easiest way of causing a write error is to set an existing output file to be read-only. This will raise a `PermissionError` when opening the file in write mode.
 
 ## Outputting the enumarated lines as JSON (optional exercise)
